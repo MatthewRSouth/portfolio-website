@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Mac System Files
+.DS_Store
+
+# Build Output (Optional)
+dist/
+build/
