@@ -1,0 +1,68 @@
+:root {
+    --bg-color: hsl(214, 19%, 10%);
+    --btn-color: hsl(199, 93%, 42%);
+    --font-color: hsl(0, 0%, 100%);
+    --skill-container-bg-color: hsla(214, 19%, 26%, 0.703);
+}
+
+html {
+    background-color: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--font-color);
+}
+nav ul li {
+    list-style: none;
+}
+nav {
+    display: flex;
+    width: auto;
+    justify-content: end;
+}
+.button {
+    height: 48px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: var(--btn-color);
+    color: var(--font-color);
+}
+.contact {
+    font-size: 12pt;
+}
+.hero {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+p {
+    font-size: 12px;
+}
+.hero-text-top {
+    margin: 0;
+}
+.skill-grid {
+    display: grid;
+}
+.skill-header-text {
+    position: absolute;
+    left: 73px;
+    font-size: 24pt;
+}
+.underline {
+    height: 5px;
+    width: 100px;
+    background-color: var(--btn-color);
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+.skill-container {
+    background: var(--skill-container-bg-color);
+    height: 50px;
+    width: auto;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
