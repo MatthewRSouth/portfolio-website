@@ -1,6 +1,6 @@
 :root {
     --bg-color: hsl(214, 19%, 10%);
-    --btn-color: hsl(199, 93%, 42%);
+    --btn-color: #0790cf;
     --font-color: hsl(0, 0%, 100%);
     --skill-container-bg-color: hsla(214, 19%, 29%, 0.257);
     --card-bg-color: hsl(213, 20%, 22%);
@@ -83,9 +83,19 @@ p {
     justify-content: flex-start;
 }
 .skill-icon {
+    height: 32px;
+    width: 32px;
 }
 .skill-header {
+    padding: 0;
+    margin: 0;
 }
 .skill-description {
     font-size: 10pt;
+    padding-top: 4px;
+    margin-top: 4px;
+}
+.icon-1 {
+    height: 32px;
+    width: 32px;
 }
