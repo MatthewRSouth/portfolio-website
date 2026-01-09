@@ -97,6 +97,7 @@ p {
 }
 .projects {
     margin-top: 100px;
+    margin-bottom: 15px;
 }
 .portfolio-container {
     display: flex;
@@ -105,6 +106,14 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    background-color: var(--skill-container-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    align-self: center;
+}
+.portfolio-thumbnail {
+    height: 200px;
+    width: 370px;
 }
 .footer {
     margin-top: 280px;
