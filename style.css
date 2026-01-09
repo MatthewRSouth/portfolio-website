@@ -70,8 +70,8 @@ p {
     justify-self: center;
 }
 .card {
-    height: 135px;
-    width: 135px;
+    height: 140px;
+    width: 140px;
     background-color: var(--card-bg-color);
     border-radius: 10px;
     gap: 10px;
@@ -95,7 +95,17 @@ p {
     padding-top: 4px;
     margin-top: 4px;
 }
-.icon-1 {
-    height: 32px;
-    width: 32px;
+.projects {
+    margin-top: 100px;
+}
+.portfolio-container {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.footer {
+    margin-top: 280px;
 }
